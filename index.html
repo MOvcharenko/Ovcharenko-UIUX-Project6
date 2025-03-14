@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 6</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #f4f4f4;
+        }
+        .highlight {
+            background-color: #ddd;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <h2 style="text-align: center;">Hello, World!</h2>
+    <p style="text-align: center;">Also "Hello, World", but smaller and longer.</p>
+    <table>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td rowspan="3" class="highlight">Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+        <tr>
+            <td>Cell 5</td>
+            <td>Cell 6</td>
+        </tr>
+        <tr>
+            <td colspan="2">Cell 7</td>
+        </tr>
+    </table>
+    <img src="example.jpg" alt="Example Image" style="display: block; margin: 0 auto; width: 50%;">
+    <ul >
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+    <ol>
+        <li>Ordered item 1</li>
+        <li>Ordered item 2</li>
+        <li>Ordered item 3</li>
+    </ol>
+    <form style="text-align: center; margin-top: 20px;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p>For more details, visit <a href="https://www.example.com" target="_blank">this link</a>.</p>
+    
+</body>
+</html>
